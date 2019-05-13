@@ -12,7 +12,7 @@ express()
       res.setHeader('Access-Control-Max-Age', '1000');
       next();
   })
-  .set('views', path.join(__dirname, 'views'))
+  .set('views', path.join(dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', cors(), (req, res) => res.render('pages/index'))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
