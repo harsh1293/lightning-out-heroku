@@ -29,5 +29,5 @@
     "express",
     "lightning-out"
   ],
-  "license": "MIT"
+  "license": "ISC"
 }
